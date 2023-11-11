@@ -1,0 +1,16 @@
+[
+  {
+    "type": "article",
+    "id": "be1f8e69-8e8d-4210-a119-e476d3d52d37",
+    "attributes": {
+      "title": "PHP is Awesome"
+    }
+  },
+  {
+    "type": "article",
+    "id": "a7cfda79-fe6b-4c43-9d2c-fc12c6cfd41f",
+    "attributes": {
+      "title": "Ports and Adapters"
+    }
+  }
+]

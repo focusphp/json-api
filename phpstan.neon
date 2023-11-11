@@ -1,0 +1,12 @@
+parameters:
+    level: 8
+
+    parallel:
+        maximumNumberOfProcesses: 4
+
+    paths:
+        - src
+        - tests
+
+    ignoreErrors:
+        - '/@implements tag of class [^ ]+ describes IteratorAggregate but the class implements:/'

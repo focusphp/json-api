@@ -1,0 +1,27 @@
+{
+  "type": "article",
+  "id": "be1f8e69-8e8d-4210-a119-e476d3d52d37",
+  "attributes": {
+    "title": "PHP is Awesome"
+  },
+  "relationships": {
+    "author": {
+      "data": {
+        "type": "person",
+        "id": "e63f48b5-1958-4046-8653-9ced1b794a5c"
+      }
+    },
+    "contributors": {
+      "data": [
+        {
+          "type": "person",
+          "id": "f78dc85f-5bf4-4665-acd1-ace039081f11"
+        },
+        {
+          "type": "person",
+          "id": "f16a9c15-8e33-44e6-81a4-9b58a87beaab"
+        }
+      ]
+    }
+  }
+}
