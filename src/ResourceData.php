@@ -16,7 +16,7 @@ use function gettype;
 use function is_array;
 use function vsprintf;
 
-final class ResourceData extends DataProxy implements Resource
+final readonly class ResourceData extends DataProxy implements Resource
 {
     use DataProxyBehavior;
     use IdentifierBehavior;
