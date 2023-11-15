@@ -9,7 +9,7 @@ use Focus\Data\DataProxy;
 use Focus\Data\KeyedData;
 use Focus\JsonApi\Behavior\IdentifierBehavior;
 
-final class IdentifierData extends DataProxy implements Identifier
+final readonly class IdentifierData extends DataProxy implements Identifier
 {
     use DataProxyBehavior;
     use IdentifierBehavior;
