@@ -12,7 +12,7 @@ use Focus\JsonApi\Behavior\IncludedBehavior;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
 
-final class DocumentData extends DataProxy implements Document
+final readonly class DocumentData extends DataProxy implements Document
 {
     use DataProxyBehavior;
     use IncludedBehavior;
